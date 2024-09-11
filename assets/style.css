@@ -14,14 +14,16 @@ body{
 
 :root {
   --block-1: #2b5eea;
+  --block-2: #1c8fdc;
 }
 
 /* HEADER  */
 #app-header{
-    position: fixed;
+  position: fixed;
   width: 100%;
   z-index: 2;
   padding: 1rem;
+  background-color: white;
 }
 
 .d-flex{
@@ -68,3 +70,12 @@ a{
 /* END HEADER  */
 
 /* MAIN  */
+.container{
+    width: 75%;
+    margin: auto;
+}
+
+#app-main{
+    height: 600px;
+    background-color: var(--block-2)
+}
