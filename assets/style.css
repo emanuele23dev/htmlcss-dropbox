@@ -14,12 +14,12 @@ body{
 
 :root {
   --block-1: #2b5eea;
-  --block-2: #1c8fdc;
+  --block-2: #74d8f6;
 }
 
 /* HEADER  */
 #app-header{
-  position: fixed;
+  position: sticky;
   width: 100%;
   z-index: 2;
   padding: 1rem;
@@ -78,4 +78,38 @@ a{
 #app-main{
     height: 600px;
     background-color: var(--block-2)
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    padding-top: 70px;
+}
+
+.img-fs{
+    width: 70%;
+}
+
+.text-fs{
+    width: 30%;
+    font-size: 20px;
+}
+
+.call-to-action1{
+    background-color: var(--block-1);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    border-style: none;
+}
+
+.call-to-action1:hover{
+    background-color: #4a7bff;
 }
