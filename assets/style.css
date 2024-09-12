@@ -130,7 +130,6 @@ h1 {
 }
 /* END FIRST SECTION  */
 
-/* SECOND SECTION  */
 /* UTILITIES  */
 .container-small {
   width: 65%;
@@ -177,7 +176,7 @@ h1 {
   padding: 1rem;
   margin-left: 0px;
   margin-right: 0px;
-  text-align: center;
+  text-align: left;
 }
 
 .col-6 {
@@ -216,6 +215,8 @@ h1 {
   margin-top: 20px;
 }
 /* END UTILITIES  */
+
+/* SECOND SECTION  */
 #second-section {
   margin-bottom: 60px;
   div,
@@ -368,3 +369,11 @@ h2 {
     border: none;
     color: white;
 }
+/* END THIRD SECTION  */
+
+/* FOURTH SECTION  */
+#fourth-section{
+    margin-top: 50px;
+  margin-bottom: 150px;
+}
+/* END FOURTH SECTION  */
