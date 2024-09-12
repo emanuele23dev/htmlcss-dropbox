@@ -374,6 +374,14 @@ h2 {
 /* FOURTH SECTION  */
 #fourth-section{
     margin-top: 50px;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 /* END FOURTH SECTION  */
+
+/* FIFTH SECTION  */
+.team{
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+/* END FIFTH SECTION  */
