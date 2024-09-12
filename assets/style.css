@@ -431,8 +431,5 @@ h2 {
 }
 
 .logo-c-w{
-svg {
-  background-color: transparent;
-  fill: white;
-}
+filter: invert(100%) sepia(0%) saturate(7474%) hue-rotate(100deg) brightness(98%) contrast(107%);
 }
